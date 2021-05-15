@@ -1,7 +1,7 @@
 Laravel UI Voler
 ======
 
-[![composer.lock](https://poser.pugx.org/jaynilsavani/laravel-ui-voler/composerlock)](//packagist.org/packages/jaynilsavani/laravel-ui-voler) [![Total Downloads](https://poser.pugx.org/jaynilsavani/laravel-ui-voler/downloads)](//packagist.org/packages/jaynilsavani/laravel-ui-voler) [![License](https://poser.pugx.org/jaynilsavani/laravel-ui-voler/license)](//packagist.org/packages/jaynilsavani/laravel-ui-voler)
+[![Total Downloads](https://poser.pugx.org/jaynilsavani/laravel-ui-voler/downloads)](//packagist.org/packages/jaynilsavani/laravel-ui-voler) [![License](https://poser.pugx.org/jaynilsavani/laravel-ui-voler/license)](//packagist.org/packages/jaynilsavani/laravel-ui-voler)
 
 Laravel UI Frontend Preset for Voler with Laravel Fortify support.
 
