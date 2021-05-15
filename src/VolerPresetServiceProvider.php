@@ -19,6 +19,7 @@ class VolerPresetServiceProvider extends ServiceProvider
                 $valorLTEPreset->installAuth();
                 $command->info('Voler CSS auth scaffolding installed successfully.');
             }
+            $command->comment('Please run "npm install && npm run dev" to compile your fresh scaffolding.');
         });
     }
 }

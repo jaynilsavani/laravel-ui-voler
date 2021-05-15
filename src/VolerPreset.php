@@ -6,7 +6,6 @@ use Illuminate\Console\Command;
 use Illuminate\Container\Container;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
-use InfyOm\GeneratorHelpers\LaravelUtils;
 use Laravel\Ui\Presets\Preset;
 use Symfony\Component\Finder\SplFileInfo;
 
@@ -85,10 +84,22 @@ class VolerPreset extends Preset
         copy(__DIR__ . '/../voler-stubs/vendors/bootstrap/webpack.mix.js', base_path('webpack.mix.js'));
     }
 
+    /**
+     * Get full view path relative to the application's configured view path.
+     *
+     * @param  string  $path
+     * @return string
+     */
+    public static function getViewPath($path = '')
+    {
+        return implode(DIRECTORY_SEPARATOR, [
+            config('view.paths')[0] ? resource_path('views') : "", $path,
+        ]);
+    }
 
     public function installAuth()
     {
-        $viewsPath = LaravelUtils::getViewPath();
+        $viewsPath = static::getViewPath();
 
         $this->ensureDirectoriesExist($viewsPath);
 
