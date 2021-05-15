@@ -1,0 +1,37 @@
+{
+    "name": "jaynilsavani/laravel-ui-voler",
+    "description": "Laravel UI Preset for Voler theme.",
+    "keywords": [
+        "laravel",
+        "preset",
+        "voler",
+        "ui"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jaynilsavani",
+            "email": "jenilsavani009@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "illuminate/support": "^8.0",
+        "infyomlabs/laravel-generator-helpers": "^3.0",
+        "laravel/ui": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JaynilSavani\\VolerPreset\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JaynilSavani\\VolerPreset\\VolerPresetServiceProvider",
+                "JaynilSavani\\VolerPreset\\FortifyVolerPresetServiceProvider"
+            ]
+        }
+    }
+}
