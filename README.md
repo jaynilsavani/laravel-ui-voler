@@ -8,12 +8,23 @@ Laravel UI Frontend Preset for Voler with Laravel Fortify support.
 Installation
 -----
 
-Run a command,
+Run a command for Laravel version 8,
 
 ```
-composer require jaynilsavani/laravel-ui-voler
+composer require jaynilsavani/laravel-ui-voler:1.1.0
 ```
 
+Run a command for Laravel version 7,
+
+```
+composer require jaynilsavani/laravel-ui-voler:dev-master
+```
+
+Run a command for Laravel version 6,
+
+```
+composer require jaynilsavani/laravel-ui-voler:1.0.0
+```
 
 Usage
 -----
