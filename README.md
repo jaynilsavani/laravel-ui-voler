@@ -17,13 +17,7 @@ composer require jaynilsavani/laravel-ui-voler:1.1.0
 Run a command for Laravel version 7,
 
 ```
-composer require jaynilsavani/laravel-ui-voler:dev-master
-```
-
-Run a command for Laravel version 6,
-
-```
-composer require jaynilsavani/laravel-ui-voler:1.0.0
+composer require jaynilsavani/laravel-ui-voler:1.2.0
 ```
 
 Usage
